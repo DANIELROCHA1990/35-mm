@@ -1,0 +1,7 @@
+---
+inherit_gem:
+  rubocop-fnando: .rubocop-rails.yml
+
+Allcops:
+  TargetRubyVersion: 3.1
+  targetRailsVersion: 7.0
