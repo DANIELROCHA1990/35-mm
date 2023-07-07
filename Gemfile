@@ -12,6 +12,8 @@ gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "bootsnap", require: false
+gem 'dotenv'
+gem "superconfig"
 
 group :development, :test do
   gem "pry-meta"

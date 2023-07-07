@@ -87,6 +87,7 @@ GEM
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
+    dotenv (2.8.1)
     erubi (1.12.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
@@ -224,6 +225,7 @@ GEM
     sqlite3 (1.6.3-x86_64-linux)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
+    superconfig (2.1.1)
     thor (1.2.2)
     timeout (0.4.0)
     turbo-rails (1.4.0)
@@ -251,6 +253,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  dotenv
   importmap-rails
   pg
   pry-meta
@@ -264,6 +267,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
+  superconfig
   turbo-rails
   webdrivers
 
